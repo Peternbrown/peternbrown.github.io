@@ -1,8 +1,6 @@
 ## Peter N Brown
-
-<center>
   
-  ### Climate Change Vulnerability Index
+### Climate Change Vulnerability Index
 
 <img src="ClimateVulnerabilityIndex.png" alt="Map1"
 	title="Climate Change Vulnerability Index" width=100% height=100% />
@@ -21,6 +19,4 @@
   <img src="CPH_floodrisk.png" alt="Map3"
 	title="Flood Risk Index in Greater Copenhagen" width=100% height=100% />
 
-[Click to view Map 3](https://drive.google.com/file/d/1Na_m9gFR_gixzAfEMuKs3uV5pF16HsXe/view?usp=sharing)
-  
-  </center>
+[Click to view Map 3](https://drive.google.com/file/d/1Na_m9gFR_gixzAfEMuKs3uV5pF16HsXe/view?usp=sharing)   
