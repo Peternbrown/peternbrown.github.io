@@ -2,8 +2,7 @@
   
 ## Climate Change Vulnerability Index
 
-<img src="ClimateVulnerabilityIndex.png" alt="Map1"
-	title="Climate Change Vulnerability Index" width=100% height=100% />
+![](ClimateVulnerabilityIndex.png)
 
 [Click to view above map.](https://drive.google.com/file/d/1EZlmB8gc67XfuUuhn6bpVCvMRWYxksFi/view?usp=sharing) Download PDF in link for best viewing experience.    
 <br>
