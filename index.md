@@ -1,20 +1,20 @@
-# GIS Projects from Copenhagen, DK
+# Peter N. Brown GIS Portfolio
   
-## **Climate Change Vulnerability Index**
+- ## **Map 1**
 
 ![](ClimateVulnerabilityIndex.png)
 
 [Click to view above map.](https://drive.google.com/file/d/1EZlmB8gc67XfuUuhn6bpVCvMRWYxksFi/view?usp=sharing) Download PDF in link for best viewing experience.    
 <br>
 
-## **Reducing the Effects of Copenhagen's Heat Island Using Vegetation Analysis**
+- ## **Map 2**
 
 ![](CPH_vegetation_analysis.png)
 
 [Click to view above map.](https://drive.google.com/file/d/1wlJ_b3_ZZu1I4PU1r6GggtNxKPFUsFTY/view?usp=sharing) Download PDF in link for best viewing experience.     
 <br>
 
-## **Flood Risk Index in Greater Copenhagen**
+- ## **Map 3**
 
 ![](CPH_floodrisk.png)
 
