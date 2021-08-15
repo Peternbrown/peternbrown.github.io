@@ -4,34 +4,10 @@ You can use the [editor on GitHub](https://github.com/Peternbrown/peternbrown.gi
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### ![Map 1: Climate Change Vulnerability Index](https://drive.google.com/file/d/1EZlmB8gc67XfuUuhn6bpVCvMRWYxksFi/view?usp=sharing)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### ![Map 2: Reducing the Effects of Copenhagen's Heat Island Using Vegetation Analysis](https://drive.google.com/file/d/1wlJ_b3_ZZu1I4PU1r6GggtNxKPFUsFTY/view?usp=sharing)
 
-```markdown
-Syntax highlighted code block
+### ![Map 3: Flood Risk Index in Greater Copenhagen](https://drive.google.com/file/d/1Na_m9gFR_gixzAfEMuKs3uV5pF16HsXe/view?usp=sharing)
 
-# Header 1
-## Header 2
-### Header 3
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Peternbrown/peternbrown.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
