@@ -16,6 +16,11 @@
 
 - ## **Map 3**
 
+[This shows ozone concentration levels in California as they relate to elevation and houseghold income.](https://github.com/Peternbrown/peternbrown.github.io/blob/28850e438cca9fabf326fcba28569e728ae013fa/CAozonepdf.pdf)
+
+
+- ## **Map 4**
+
 ![](CPH_floodrisk.png)
 
 [Click to view above map.](https://drive.google.com/file/d/1Na_m9gFR_gixzAfEMuKs3uV5pF16HsXe/view?usp=sharing) Download PDF in link for best viewing experience.   
