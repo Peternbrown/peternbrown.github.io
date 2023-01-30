@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylsheet" href="./githubPages_styling.css" />
+    <title>Peter N. Brown GIS Portfolio</title>
+
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
@@ -17,32 +17,36 @@
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
       crossorigin=""
     ></script>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="welcome-div">
+    <div class="home-text" id="welcome-div">
       <h1>Peter Brown</h1>
       <h2>
         Geospatial analyst. Environmental Solutionist. Arboriculture enthusiast.
       </h2>
       <p id="welcome-para">
         Welcome to my portfolio site and thank you so much for being here!
-        Everything here was created by me, from the HTML+CSS of the site itself,
-        to the individual projects showcased.
+        Everything here was created by me, from the the individual projects
+        showcased, to the HTML+CSS of the site itself.
       </p>
     </div>
-    <div id="leaf-map">
-      <script>
-        const map = L.map("map").setView([51.505, -0.09], 13);
-
-        const tiles = L.tileLayer(
-          "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
-          {
-            maxZoom: 19,
-            attribution:
-              '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-          }
-        ).addTo(map);
-      </script>
+    <div class="home-text" id="leaflet-intro">
+      <h3>Places I've called home</h3>
+      <p>
+        Below is a Leaflet javascript map, which shows all of the locations I've
+        called home throughout my life.
+      </p>
+    </div>
+    <div id="map"></div>
+    <script src="./leaflet_homes.js" type="text/javascript"></script>
+    <div class="home-text" id="leaflet-outro">
+      <p>
+        "Leaflet.js is an open-source JavaScript library for mobile-friendly
+        interactive maps." This is a first attempt at implementing Leaflet.js
+        and I intend to continue to improve this display in the future as I
+        learn more about javascript and Leaflet.
+      </p>
     </div>
   </body>
 </html>
