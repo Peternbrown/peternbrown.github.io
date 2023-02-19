@@ -6,37 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Peter N. Brown GIS Portfolio</title>
 
+    <!--Leaflet link-->
     <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
       integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
       crossorigin=""
     />
+
+    <!--Leaflet script-->
     <script
       src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
       integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM="
       crossorigin=""
     ></script>
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
   </head>
+
   <body>
     <div class="home-text" id="welcome-div">
-      <h1>Peter Brown</h1>
-      <h2>
-        Geospatial analyst. Environmental Solutionist. Arboriculture enthusiast.
-      </h2>
-      <p id="welcome-para">
-        Welcome to my portfolio site and thank you so much for being here!
-        Everything here was created by me, from the the individual projects
-        showcased, to the HTML+CSS of the site itself.
-      </p>
+      <div id="headers">
+        <h1>Peter Brown</h1>
+        <h2>
+          Geospatial <span class="white-subtitle">Analyst</span>. Environmental
+          <span class="white-subtitle">Solutionist</span>. Arboriculture
+          <span class="white-subtitle">Enthusiast</span>.
+        </h2>
+      </div>
+      <div id="welcome-para">
+        <p id="about-para">
+          I am geospatial analyst with a background in enviornmental policy and a history working for local governments
+          or at non-profits which work very closely with local government. The power of spatial information fascinates me and
+          I hope to use my geospatial tool belt to build visualisations and applications to improve the lives of others and
+          the health of planet Earth.
+        </p>
+        <p id="built-by-me">
+          Everything here was created by me, from the the individual projects
+          showcased, to the HTML+CSS of the site itself.
+        </p>
+      </div>
     </div>
     <div class="home-text" id="leaflet-intro">
-      <h3>Places I've called home</h3>
-      <p>
-        Below is a Leaflet javascript map, which shows all of the locations I've
-        called home throughout my life.
-      </p>
+      <h3>Here are some of the places I've called home</h3>
     </div>
     <div id="map"></div>
     <script src="./leaflet_homes.js" type="text/javascript"></script>
@@ -45,7 +63,7 @@
         "Leaflet.js is an open-source JavaScript library for mobile-friendly
         interactive maps." This is a first attempt at implementing Leaflet.js
         and I intend to continue to improve this display in the future as I
-        learn more about javascript and Leaflet.
+        learn more about JavaScript and Leaflet.js.
       </p>
     </div>
   </body>

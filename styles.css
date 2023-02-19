@@ -1,24 +1,51 @@
 html {
-    font-size: 16px;
+  font-size: 16px;
+}
+
+body {
+  background-color: #29422f;
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+#headers {
+  margin-top: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+#welcome-para {
+  font-size: 1.3rem;
+  text-align: left;
+  line-height: 2rem;
 }
 
 .home-text {
-    text-align: center;
+  text-align: center;
+}
+
+.white-subtitle {
+  text-decoration: solid underline #694967 .2rem;
+  ;
 }
 
 #leaflet-intro {
-    padding-top: 1rem;
+  padding-top: 1rem;
 }
 
 #leaflet-outro {
-    width: 30vw;
-    margin: auto;
+  width: 42vw;
+  margin: auto;
 }
 
 .leaflet-container {
-    width: 50vw;
-    height: 30vh;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 1rem;
-  }
+  width: 50vw;
+  height: 30vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
