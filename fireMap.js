@@ -10,7 +10,7 @@ const tiles2 = L.tileLayer(
 ).addTo(map2);
 
 // add fire map
-L.esri
+const wildfires = L.esri
   .featureLayer({
     url: "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/",
 
@@ -22,3 +22,10 @@ L.esri
     },
   })
   .addTo(map2);
+
+wildfires.bindPopup(function (layer) {
+  return L.Util.template(
+    "<p>Incident Name: <strong>{attr_IncidentName}</p>",
+    layer.feature.properties
+  );
+});
