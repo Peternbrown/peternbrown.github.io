@@ -1,13 +1,27 @@
-var map = L.map("map").setView([40.450428, -47.031615], 1.75);
+var map = L.map("homes").setView([40.450428, -45.031615], 1.75);
 
 const tiles = L.tileLayer(
-  "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+  "https://stamen-tiles.a.ssl.fastly.net/toner/{z}/{x}/{y}.png",
   {
     maxZoom: 19,
     attribution:
       '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
   }
 ).addTo(map);
+
+// add fire map
+L.esri
+  .featureLayer({
+    url: "https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/",
+
+    style: (featureLayer) => {
+      let style = {
+        fillColor: "#ff0000",
+      };
+      return style;
+    },
+  })
+  .addTo(map);
 
 // St Johns Wood popup
 var stjohns = L.marker([51.534661, -0.173812]).addTo(map);
@@ -36,3 +50,4 @@ cope.bindPopup("<b>Vesterbro</b><br>Copenhagen, DK");
 // Cope popup
 var salamanca = L.marker([40.973056, -5.657125]).addTo(map);
 salamanca.bindPopup("<b>Barrio Garrido</b><br>Salamanca, ES");
+

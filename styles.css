@@ -6,6 +6,8 @@ body {
   background-color: #29422f;
   font-family: "IBM Plex Sans Condensed", sans-serif;
   color: white;
+  height: auto;
+  width: auto;
 }
 
 h1 {
@@ -24,17 +26,12 @@ h1 {
   line-height: 2rem;
 }
 
-.home-text {
+h3 {
   text-align: center;
 }
 
 .white-subtitle {
-  text-decoration: solid underline #694967 .2rem;
-  ;
-}
-
-#leaflet-intro {
-  padding-top: 1rem;
+  text-decoration: solid underline #694967 0.2rem;
 }
 
 #leaflet-outro {
@@ -42,10 +39,22 @@ h1 {
   margin: auto;
 }
 
-.leaflet-container {
+#homes {
   width: 50vw;
-  height: 30vh;
+  height: 40vh;
   margin-left: auto;
   margin-right: auto;
   padding-top: 1rem;
+}
+
+#fireMap {
+  width: 50vw;
+  height: 40vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1rem;
+}
+
+#fire-map-header {
+  padding-top: 2rem;
 }
