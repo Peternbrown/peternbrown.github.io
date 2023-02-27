@@ -58,3 +58,8 @@ h3 {
 #fire-map-header {
   padding-top: 2rem;
 }
+
+#search-bar {
+  color: black;
+  font-weight: bold;
+}

@@ -25,7 +25,25 @@ const wildfires = L.esri
 
 wildfires.bindPopup(function (layer) {
   return L.Util.template(
-    "<p>Incident Name: <strong>{attr_IncidentName}</p>",
+    "<p>Incident Name: <strong>{attr_IncidentName}</strong><br>Acres: {poly_GISAcres}</br></p>",
     layer.feature.properties
   );
 });
+
+let fires_provider = L.esri.Geocoding.featureLayerProvider({
+  url: 'https://services3.arcgis.com/T4QMspbfLg3qTGWY/arcgis/rest/services/WFIGS_Interagency_Perimeters_Current/FeatureServer/0/',
+  searchFields: ['attr_IncidentName'], // Search these fields for text matches
+  label: 'Fires', // Group suggestions under this header
+  formatSuggestion: function (feature) {
+      return feature.properties.attr_IncidentName; // format suggestions like this.
+  }
+});
+
+const searchControl = L.esri.Geocoding.geosearch({
+  position: "topright",
+  placeholder: "Begin searching an active fire",
+  useMapBounds: false,
+
+  providers: [fires_provider]
+
+}).addTo(map2);
