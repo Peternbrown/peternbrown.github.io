@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GIS Projects — Peter Brown</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="titlebar">
+  <div class="wrap">
+    <a href="index.html" class="mark">Peter Brown <span>/// GIS + PM</span></a>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="gis-projects.html" aria-current="page">GIS Projects</a>
+      <a href="product-management.html">Product Mgmt</a>
+      <a href="resume.html">Resume</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <img class="hero-bg" src="assets/contours.svg" alt="" aria-hidden="true">
+  <div class="wrap">
+    <p class="eyebrow">Layer 1 — Geospatial Engineering</p>
+    <h1 class="title" style="font-size:clamp(2.2rem,6vw,3.4rem);">GIS Projects</h1>
+    <p class="lede">Where product thinking meets hands-on execution: field data collection, automated pipelines, and deployed tools that foresters rely on every day.</p>
+  </div>
+</section>
+
+<section class="block">
+  <div class="wrap">
+
+    <article class="project" id="pruning-app">
+      <p class="cat"><span class="swatch gis"></span>GIS · Full-Stack Product Build — City of New York</p>
+      <h3>Tree Block Pruning Manager</h3>
+      <p class="narrative">I led this project as both product owner and sole developer. I ran discovery directly with forestry stakeholders to define requirements, then designed and built the full application myself — from data pipeline to front end. It's now the system of record foresters use to run the tree block pruning program from the field.</p>
+      <p class="narrative">Data moves from the field into the system through an FME Interoperability + SQL ETL workflow, with ArcGIS Pro used to build and manage the map layers. The front end runs on ArcGIS Online, using Experience Builder for the desktop app and Field Maps for crews working on-site.</p>
+
+      <h4>Key Features Delivered</h4>
+      <ul class="capabilities">
+        <li>Upload and flag field data points for re-checking</li>
+        <li>Visualize contractor work areas across the pruning program</li>
+        <li>Batch-edit points to update status and attributes at scale</li>
+        <li>Query estimated work cost and other program variables</li>
+        <li>Filter and slice data by crew, block, status, and other fields</li>
+      </ul>
+
+      <h4>My Role</h4>
+      <p class="narrative" style="margin-bottom:0;">Product manager and sole developer — led stakeholder discovery to scope requirements, then owned design and delivery of the ETL, map layers, and front-end experience end to end.</p>
+
+      <div class="impact"><strong>Impact:</strong> Replaced an ad hoc, spreadsheet-driven process with a single system of record — giving foresters real-time visibility into work status, cost, and crew assignment.</div>
+
+      <h4>Stack</h4>
+      <div class="stack">
+        <span class="pill">FME Interoperability</span>
+        <span class="pill">SQL</span>
+        <span class="pill">ArcGIS Pro</span>
+        <span class="pill">ArcGIS Online</span>
+        <span class="pill">Experience Builder</span>
+        <span class="pill">Field Maps</span>
+      </div>
+
+      <div class="media-slot">Add a screenshot or short screen recording of the app here</div>
+    </article>
+
+    <article class="project" id="image-automation">
+      <p class="cat"><span class="swatch auto"></span>GIS · Python Automation — City of New York</p>
+      <h3>Survey123 Image Pipeline</h3>
+      <p class="narrative">I identified a recurring operational drag: field teams collected photos through a Survey123 survey, but getting them off the platform meant going through every image one by one and saving it manually to a desktop — roughly three hours of repetitive work every week.</p>
+      <p class="narrative">I scoped and built a Python automation using the arcpy package that downloads the images in bulk, renames and organizes them, and pulls the accompanying spreadsheet of GIS data tied to each photo — then uploads everything automatically to SharePoint for team-wide access, with zero manual steps.</p>
+
+      <h4>Capabilities</h4>
+      <ul class="capabilities">
+        <li>Bulk-downloads images from a Survey123 survey</li>
+        <li>Renames and organizes files by a consistent naming convention</li>
+        <li>Exports the associated GIS attribute spreadsheet</li>
+        <li>Uploads the full set to SharePoint for team-wide access</li>
+      </ul>
+
+      <h4>Stack</h4>
+      <div class="stack">
+        <span class="pill">ArcGIS Pro</span>
+        <span class="pill">Python</span>
+        <span class="pill">arcpy</span>
+        <span class="pill">SharePoint</span>
+      </div>
+
+      <div class="impact"><strong>Impact:</strong> Eliminated ~3 hours of manual work per week — 150+ hours a year reclaimed for higher-value work, with zero risk of missed or mis-filed field photos.</div>
+
+      <div class="media-slot">Add a before/after diagram or short code snippet here</div>
+    </article>
+
+    <article class="project" id="park-county-automation">
+      <p class="cat"><span class="swatch auto"></span>GIS · Process Automation — County of Park</p>
+      <h3>County Workflow Automation &amp; Internal Web Apps</h3>
+      <p class="narrative">As the county's GIS Specialist, I worked directly with department staff to understand where operational processes were breaking down, then built the technology to fix it — rather than waiting on a larger IT initiative.</p>
+      <p class="narrative">I automated recurring, manual business processes using Python and designed internal web applications to support day-to-day data management and department workflows, cutting down on repetitive manual effort across the county.</p>
+
+      <h4>Stack</h4>
+      <div class="stack">
+        <span class="pill">Python</span>
+        <span class="pill">ArcGIS Suite</span>
+        <span class="pill">Internal Web Apps</span>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<footer class="sheet-footer">
+  <div class="wrap">
+    <div class="fname">Peter Brown</div>
+    <div class="contact-links">
+      <a href="mailto:peternbrown100@gmail.com">Email</a>
+      <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
